@@ -936,39 +936,39 @@ footer{background:var(--card);border-top:1px solid var(--border);padding:3rem 5%
 // ── VEHICLE DATA ──
 const cars = [
   // LUXURY — BMW
-  {cat:'luxury', img:'images/cars/bmw-318i.jpg',  name:'BMW 318i M Sport',       sub:'2024+', engine:'2.0L Petrol',    type:'petrol',   price:'LKR 35–45 million',  demand:'high',   features:'M Sport body kit, 8-speed auto, LED headlights, 17" alloys'},
-  {cat:'luxury', img:'images/cars/bmw-523i.webp', name:'BMW 523i M Sport',       sub:'2024+', engine:'2.0L Petrol',    type:'petrol',   price:'LKR 55–70 million',  demand:'high',   features:'Luxury Line, panoramic roof, 12.3" digital dashboard'},
-  {cat:'luxury', img:'images/cars/bmw-x1.avif',   name:'BMW X1 xDrive20i',       sub:'2024+', engine:'2.0L Petrol',    type:'petrol',   price:'LKR 45–55 million',  demand:'high',   features:'Compact SUV, AWD, 10.7" curved display'},
-  {cat:'luxury', img:'images/cars/bmw-x3.avif',   name:'BMW X3 xDrive20i',       sub:'2024+', engine:'2.0L Petrol',    type:'petrol',   price:'LKR 60–72 million',  demand:'high',   features:'Mid-size luxury SUV, AWD, premium Harman Kardon audio'},
-  {cat:'luxury', img:'images/cars/bmw.jpg',        name:'BMW X5 xDrive40i',       sub:'2024+', engine:'3.0L Petrol',    type:'petrol',   price:'LKR 80–100 million', demand:'medium', features:'Full-size luxury SUV, 7-seat option, B&W audio'},
+  {cat:'luxury', img:'images/cars/bmw-318i.jpg',  name:'BMW 318i M Sport',       sub:'2024+', engine:'2.0L Petrol',    type:'petrol',   price:'LKR 32–40 million',  demand:'high',   features:'M Sport body kit, 8-speed auto, LED headlights, 17" alloys'},
+  {cat:'luxury', img:'images/cars/bmw-523i.webp', name:'BMW 523i M Sport',       sub:'2024+', engine:'2.0L Petrol',    type:'petrol',   price:'LKR 45–60 million',  demand:'high',   features:'Luxury Line, panoramic roof, 12.3" digital dashboard'},
+  {cat:'luxury', img:'images/cars/bmw-x1.avif',   name:'BMW X1 xDrive20i',       sub:'2024+', engine:'2.0L Petrol',    type:'petrol',   price:'LKR 28–44 million',  demand:'high',   features:'Compact SUV, AWD, 10.7" curved display'},
+  {cat:'luxury', img:'images/cars/bmw-x3.avif',   name:'BMW X3 xDrive20i',       sub:'2024+', engine:'2.0L Petrol',    type:'petrol',   price:'LKR 55–70 million',  demand:'high',   features:'Mid-size luxury SUV, AWD, premium Harman Kardon audio'},
+  {cat:'luxury', img:'images/cars/bmw.jpg',        name:'BMW X5 xDrive40i',       sub:'2024+', engine:'3.0L Petrol',    type:'petrol',   price:'LKR 85–98 million',  demand:'medium', features:'Full-size luxury SUV, 7-seat option, B&W audio'},
   // LUXURY — Mercedes-Benz
-  {cat:'luxury', img:'images/cars/mercedes-c200.webp', name:'Mercedes-Benz C200 AMG Line', sub:'2024+', engine:'2.0L Petrol', type:'petrol', price:'LKR 48–60 million', demand:'high', features:'AMG Line, MBUX 11.9" screen, Burmester audio'},
-  {cat:'luxury', img:'images/cars/mercedes-cla.jpg',   name:'Mercedes-Benz CLA 250',       sub:'2024+', engine:'2.0L Petrol', type:'petrol', price:'LKR 40–52 million', demand:'high', features:'Coupé style, AMG styling, shooting brake option'},
-  {cat:'luxury', img:'images/cars/mercedes-e200.webp', name:'Mercedes-Benz E200 / E300',   sub:'2024+', engine:'2.0L Petrol', type:'petrol', price:'LKR 68–85 million', demand:'medium', features:'Business luxury, 12.3" dual screen, massage seats'},
+  {cat:'luxury', img:'images/cars/mercedes-c200.webp', name:'Mercedes-Benz C200 AMG Line', sub:'2024+', engine:'2.0L Petrol', type:'petrol', price:'LKR 28–45 million', demand:'high', features:'AMG Line, MBUX 11.9" screen, Burmester audio'},
+  {cat:'luxury', img:'images/cars/mercedes-cla.jpg',   name:'Mercedes-Benz CLA 250',       sub:'2024+', engine:'2.0L Petrol', type:'petrol', price:'LKR 27–42 million', demand:'high', features:'Coupé style, AMG styling, shooting brake option'},
+  {cat:'luxury', img:'images/cars/mercedes-e200.webp', name:'Mercedes-Benz E200 / E300',   sub:'2024+', engine:'2.0L Petrol', type:'petrol', price:'LKR 60–82 million', demand:'medium', features:'Business luxury, 12.3" dual screen, massage seats'},
   {cat:'luxury', img:'images/cars/mercedes.jpg',       name:'Mercedes-Benz GLC 200',        sub:'2024+', engine:'2.0L Petrol', type:'petrol', price:'LKR 63–78 million', demand:'high', features:'Premium SUV, MBUX, advanced safety suite'},
   // LUXURY — Audi
-  {cat:'luxury', img:'images/cars/audi-a3.jpg', name:'Audi A3 Sportback',  sub:'2024+', engine:'1.5L Petrol', type:'petrol', price:'LKR 35–45 million', demand:'high',   features:'Virtual Cockpit, S Line body, turbocharged'},
-  {cat:'luxury', img:'images/cars/audi-a4.jpg', name:'Audi A4 / A5',       sub:'2024+', engine:'2.0L Petrol', type:'petrol', price:'LKR 48–62 million', demand:'high',   features:'Quattro AWD, matrix LED, Bang & Olufsen'},
+  {cat:'luxury', img:'images/cars/audi-a3.jpg', name:'Audi A3 Sportback',  sub:'2024+', engine:'1.5L Petrol', type:'petrol', price:'LKR 12.5–18 million', demand:'high',   features:'Virtual Cockpit, S Line body, turbocharged'},
+  {cat:'luxury', img:'images/cars/audi-a4.jpg', name:'Audi A4 / A5',       sub:'2024+', engine:'2.0L Petrol', type:'petrol', price:'LKR 35–62 million', demand:'high',   features:'Quattro AWD, matrix LED, Bang & Olufsen'},
   {cat:'luxury', img:'images/cars/audi-q5.jpg', name:'Audi Q5',            sub:'2024+', engine:'2.0L Petrol', type:'petrol', price:'LKR 58–72 million', demand:'medium', features:'Quattro AWD, panoramic sunroof, air suspension'},
   // ELECTRIC
-  {cat:'electric', img:'images/cars/bmw-i5.png',       name:'BMW i5',              sub:'2024+', engine:'Electric', type:'electric', price:'LKR 55–70 million',  demand:'medium', features:'489km range, M60 xDrive variant available'},
+  {cat:'electric', img:'images/cars/bmw-i5.png',       name:'BMW i5',              sub:'2024+', engine:'Electric', type:'electric', price:'LKR 45–65 million',  demand:'medium', features:'489km range, M60 xDrive variant available'},
   {cat:'electric', img:'images/cars/bmw-i7.jpg',       name:'BMW i7',              sub:'2024+', engine:'Electric', type:'electric', price:'LKR 80–105 million', demand:'medium', features:'Ultra-luxury EV, 625km range, theatre rear screen'},
-  {cat:'electric', img:'images/cars/mercedes-eqb.png', name:'Mercedes-Benz EQA/EQB', sub:'2024+', engine:'Electric', type:'electric', price:'LKR 40–52 million', demand:'medium', features:'Premium compact EV, up to 426km range'},
+  {cat:'electric', img:'images/cars/mercedes-eqb.png', name:'Mercedes-Benz EQA/EQB', sub:'2024+', engine:'Electric', type:'electric', price:'LKR 30–45 million', demand:'medium', features:'Premium compact EV, up to 426km range'},
   {cat:'electric', img:'images/cars/audi-q4-etron.png',name:'Audi Q4 e-tron',      sub:'2024+', engine:'Electric', type:'electric', price:'LKR 42–55 million',  demand:'medium', features:'Premium EV SUV, up to 520km range, quattro'},
-  {cat:'electric', img:'images/cars/electric.jpg',     name:'Audi Q8 e-tron',      sub:'2024+', engine:'Electric', type:'electric', price:'LKR 60–78 million',  demand:'medium', features:'Flagship EV, 600km range, air suspension'},
+  {cat:'electric', img:'images/cars/electric.jpg',     name:'Audi Q8 e-tron',      sub:'2024+', engine:'Electric', type:'electric', price:'LKR 38–45 million',  demand:'medium', features:'Flagship EV, 600km range, air suspension'},
   // HYBRID
-  {cat:'hybrid', img:'images/cars/hybrid.jpg', name:'Toyota Axio Hybrid',        sub:'2024+', engine:'1.5L Hybrid',     type:'hybrid', price:'LKR 14–18 million', demand:'high', features:'Fuel-efficient, reliable, popular commuter car'},
+  {cat:'hybrid', img:'images/cars/hybrid.jpg', name:'Toyota Axio Hybrid',        sub:'2024+', engine:'1.5L Hybrid',     type:'hybrid', price:'LKR 14–16 million', demand:'high', features:'Fuel-efficient, reliable, popular commuter car'},
   {cat:'hybrid', img:'images/cars/hybrid.jpg', name:'Toyota Yaris Cross Hybrid', sub:'2024+', engine:'1.5L Hybrid',     type:'hybrid', price:'LKR 22–28 million', demand:'high', features:'Compact crossover, self-charging hybrid, e-CVT'},
-  {cat:'hybrid', img:'images/cars/hybrid.jpg', name:'Toyota Corolla Cross',      sub:'2024+', engine:'1.8L Hybrid',     type:'hybrid', price:'LKR 24–30 million', demand:'high', features:'Top-selling hybrid, AWD option, Toyota Safety Sense'},
-  {cat:'hybrid', img:'images/cars/hybrid.jpg', name:'Honda Vezel Hybrid',        sub:'2024+', engine:'1.5L e:HEV',      type:'hybrid', price:'LKR 20–26 million', demand:'high', features:'e:HEV twin motor, 26km/L fuel efficiency'},
-  {cat:'hybrid', img:'images/cars/hybrid.jpg', name:'Honda CR-V Hybrid',         sub:'2024+', engine:'2.0L e:HEV',      type:'hybrid', price:'LKR 30–38 million', demand:'high', features:'Family SUV, e:HEV, spacious 5+2 seating'},
+  {cat:'hybrid', img:'images/cars/hybrid.jpg', name:'Toyota Corolla Cross',      sub:'2024+', engine:'1.8L Hybrid',     type:'hybrid', price:'LKR 22–28 million', demand:'high', features:'Top-selling hybrid, AWD option, Toyota Safety Sense'},
+  {cat:'hybrid', img:'images/cars/hybrid.jpg', name:'Honda Vezel Hybrid',        sub:'2024+', engine:'1.5L e:HEV',      type:'hybrid', price:'LKR 16–20 million', demand:'high', features:'e:HEV twin motor, 26km/L fuel efficiency'},
+  {cat:'hybrid', img:'images/cars/hybrid.jpg', name:'Honda CR-V Hybrid',         sub:'2024+', engine:'2.0L e:HEV',      type:'hybrid', price:'LKR 28–35 million', demand:'high', features:'Family SUV, e:HEV, spacious 5+2 seating'},
   {cat:'hybrid', img:'images/cars/hybrid.jpg', name:'Honda Civic e:HEV',         sub:'2024+', engine:'1.5T / 2.0L e:HEV', type:'hybrid', price:'LKR 23–30 million', demand:'high', features:'Sporty sedan, turbocharged, e:HEV option'},
   {cat:'hybrid', img:'images/cars/hybrid.jpg', name:'Nissan X-Trail e-Power',    sub:'2024+', engine:'1.5L e-Power',    type:'hybrid', price:'LKR 28–36 million', demand:'high', features:'e-4ORCE AWD, 7-seat, ProPilot assist'},
   // SPORT
-  {cat:'sport', img:'images/cars/sport.jpg', name:'Honda Civic Type R',  sub:'2024+', engine:'2.0L Turbo',   type:'sport-tag', price:'LKR 55–70 million', demand:'high',   features:'306hp, 6-speed manual, Nürburgring lap record holder'},
-  {cat:'sport', img:'images/cars/sport.jpg', name:'Honda Prelude (New)', sub:'2024+', engine:'2.0L e:HEV',   type:'hybrid',    price:'LKR 30–40 million', demand:'high',   features:'Brand new revival, sporty hybrid coupé, VTEC heritage'},
-  {cat:'sport', img:'images/cars/sport.jpg', name:'Toyota GR86',         sub:'2024+', engine:'2.4L Boxer',   type:'sport-tag', price:'LKR 36–46 million', demand:'high',   features:'Pure sports coupe, rear-wheel drive, 234hp'},
-  {cat:'sport', img:'images/cars/sport.jpg', name:'Toyota GR Supra',     sub:'2024+', engine:'3.0L Turbo',   type:'sport-tag', price:'LKR 75–95 million', demand:'medium', features:'BMW-sourced inline-6, 387hp, iconic sports heritage'},
+  {cat:'sport', img:'images/cars/sport.jpg', name:'Honda Civic Type R',  sub:'2024+', engine:'2.0L Turbo',   type:'sport-tag', price:'LKR 48–60 million', demand:'high',   features:'306hp, 6-speed manual, Nürburgring lap record holder'},
+  {cat:'sport', img:'images/cars/sport.jpg', name:'Honda Prelude (New)', sub:'2024+', engine:'2.0L e:HEV',   type:'hybrid',    price:'LKR 28–32 million', demand:'high',   features:'Brand new revival, sporty hybrid coupé, VTEC heritage'},
+  {cat:'sport', img:'images/cars/sport.jpg', name:'Toyota GR86',         sub:'2024+', engine:'2.4L Boxer',   type:'sport-tag', price:'LKR 35–40 million', demand:'high',   features:'Pure sports coupe, rear-wheel drive, 234hp'},
+  {cat:'sport', img:'images/cars/sport.jpg', name:'Toyota GR Supra',     sub:'2024+', engine:'3.0L Turbo',   type:'sport-tag', price:'LKR 48–65 million', demand:'medium', features:'BMW-sourced inline-6, 387hp, iconic sports heritage'},
 ];
 
 function renderCars(filter) {
